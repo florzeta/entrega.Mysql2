@@ -33,7 +33,7 @@ app.use('/admin/login', loginRouter);
 
 /*consulta*/
 
-pool.query('select * from empleados').then(function (resultados){
+pool.query('select * from usuarios').then(function (resultados){
   console.log(resultados)
 });
 
